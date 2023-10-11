@@ -4,10 +4,13 @@ def test_config():
 
 def reverse_string(string1):
 
+    revString = ""
+
     string_length = len(string1) - 1
 
     while(string_length >= 0):
-        #print(str(string1[string_length]))
-        string_length -= 1
-        return string_length
+        revString = revString + str(string1[string_length]) #the final string that will return (reverse string in this case)
+        string_length -= 1 #index aka location
+    return revString
+    #print(revString)
     

@@ -8,5 +8,4 @@ class Test_Config(unittest.TestCase):
 
     def test_reverse_string(self):
         self.assertEqual("dlrow olleh", reverse_string("hello world"))
-
-
+        print(reverse_string("hello world"))
